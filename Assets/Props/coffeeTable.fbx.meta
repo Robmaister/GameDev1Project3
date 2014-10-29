@@ -123,6 +123,28 @@ ModelImporter:
     4300038: DrawerBoxBack.000
     4300040: ScrewHead.000
     4300042: BottomPanel.000
+    6400000: BackPanel.000
+    6400002: BottomPanel.000
+    6400004: CenterSupport.000
+    6400006: DrawerBoxBack.000
+    6400008: DrawerBoxBack.001
+    6400010: DrawerBoxBottom.000
+    6400012: DrawerBoxBottom.001
+    6400014: DrawerBoxSide.000
+    6400016: DrawerBoxSide.001
+    6400018: DrawerFront.000
+    6400020: DrawerFront.001
+    6400022: DrawerHandle.000
+    6400024: DrawerHandle.001
+    6400026: Fron tFrame.000
+    6400028: hmtn_CoffeeTable.000
+    6400030: Legs.000
+    6400032: ScrewHead.000
+    6400034: ScrewHead.001
+    6400036: ScrewHead.002
+    6400038: ScrewHead.003
+    6400040: SidePanels.000
+    6400042: TopEdge.000
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -132,6 +154,7 @@ ModelImporter:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
     optimizeGameObjects: 0
+    motionNodeName: 
     animationCompression: 1
     animationRotationError: .5
     animationPositionError: .5
