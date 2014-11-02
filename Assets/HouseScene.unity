@@ -1800,6 +1800,7 @@ GameObject:
   - 33: {fileID: 394466627}
   - 65: {fileID: 394466626}
   - 23: {fileID: 394466625}
+  - 114: {fileID: 394466628}
   m_Layer: 0
   m_Name: Dresser Placeholder
   m_TagString: Untagged
@@ -1831,7 +1832,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: 8d1fc97886f20c54da749e8ca5ed2210, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -1858,6 +1859,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 394466623}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &394466628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 394466623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb47d50b67f163e49aac5b9a4c4a55dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &406215581
 GameObject:
   m_ObjectHideFlags: 0
@@ -5694,7 +5706,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 12.0089998
+      value: 11.1420002
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
       propertyPath: m_LocalPosition.z
@@ -7655,7 +7667,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: f49d4bd63e6ac7847a1f540d1ab11a14, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: f49d4bd63e6ac7847a1f540d1ab11a14, type: 3}
       propertyPath: m_LocalScale.x
@@ -9135,7 +9147,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400064, guid: 6d31dbef4bfc6ab4dbe1d7383615d5e7, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 400064, guid: 6d31dbef4bfc6ab4dbe1d7383615d5e7, type: 3}
       propertyPath: m_LocalScale.x
@@ -11275,7 +11287,7 @@ Transform:
   m_PrefabInternal: {fileID: 1112065513}
   m_GameObject: {fileID: 2036473182}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: -4.37113883e-08}
-  m_LocalPosition: {x: 1.28439999, y: 12.0089998, z: 10.6169996}
+  m_LocalPosition: {x: 1.28439999, y: 11.1420002, z: 10.6169996}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 658784816}
