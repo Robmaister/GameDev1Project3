@@ -16,9 +16,8 @@ public class ItemSelection : MonoBehaviour {
 	void Start () {
         available = false;
         gameObject.GetComponent<Image>().sprite = blankSprite;
-        closerLookButtonScript = GameObject.Find("Button").GetComponent<CloserLookButton>();
-        itemDetailDisplayScript = GameObject.Find("SelectedImage").GetComponent<ItemDetailDisplay>();
-        descriptionTextScript = GameObject.Find("DescriptionText").GetComponent<DescriptionText>();
+        itemDetailDisplayScript = GameObject.Find("SelectedCollectiveItemImage").GetComponent<ItemDetailDisplay>();
+        descriptionTextScript = GameObject.Find("SelectedCollectiveItemDescriptionText").GetComponent<DescriptionText>();
 	}
 	
 	// Update is called once per frame
