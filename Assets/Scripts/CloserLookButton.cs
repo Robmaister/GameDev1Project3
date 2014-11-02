@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class ShowItemDetail : MonoBehaviour {
+public class CloserLookButton : MonoBehaviour {
     int itemSelected;
 
 	// Use this for initialization
