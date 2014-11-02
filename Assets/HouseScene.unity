@@ -11543,6 +11543,8 @@ GameObject:
   - 33: {fileID: 1587352327}
   - 65: {fileID: 1587352326}
   - 23: {fileID: 1587352325}
+  - 114: {fileID: 1587352329}
+  - 114: {fileID: 1587352328}
   m_Layer: 0
   m_Name: TreasureChest Placeholder
   m_TagString: Untagged
@@ -11601,6 +11603,29 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1587352323}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1587352328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1587352323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb47d50b67f163e49aac5b9a4c4a55dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: 0
+--- !u!114 &1587352329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1587352323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b1dbdeffa9ef494cb8694eff655a91c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1589787005
 GameObject:
   m_ObjectHideFlags: 0
