@@ -1,44 +1,23 @@
 fileFormatVersion: 2
-guid: 3aaa48d0886be3647b992d6ec8934f62
+guid: ebf81b66a80fbac4c852560d04786ba1
 ModelImporter:
   serializedVersion: 16
   fileIDToRecycleName:
     100000: Camera
-    100002: //RootNode
-    100004: Dresser
-    100006: Dresser Drawer1
-    100008: Dresser Drawer2
-    100010: Dresser Drawer3
-    100012: Dresser Drawer4
-    100014: Dresser Drawer5
-    100016: Lamp
+    100002: Circle_001
+    100004: Circle_002
+    100006: Lamp
+    100008: //RootNode
     400000: Camera
-    400002: //RootNode
-    400004: Dresser
-    400006: Dresser Drawer1
-    400008: Dresser Drawer2
-    400010: Dresser Drawer3
-    400012: Dresser Drawer4
-    400014: Dresser Drawer5
-    400016: Lamp
-    2300000: Dresser
-    2300002: Dresser Drawer1
-    2300004: Dresser Drawer2
-    2300006: Dresser Drawer3
-    2300008: Dresser Drawer4
-    2300010: Dresser Drawer5
-    3300000: Dresser
-    3300002: Dresser Drawer1
-    3300004: Dresser Drawer2
-    3300006: Dresser Drawer3
-    3300008: Dresser Drawer4
-    3300010: Dresser Drawer5
-    4300000: Dresser Drawer2
-    4300002: Dresser Drawer3
-    4300004: Dresser Drawer4
-    4300006: Dresser Drawer5
-    4300008: Dresser Drawer1
-    4300010: Dresser
+    400002: Circle_001
+    400004: Circle_002
+    400006: Lamp
+    400008: //RootNode
+    2300000: Circle_001
+    2300002: Circle_002
+    3300000: Circle_001
+    3300002: Circle_002
+    4300002: Circle_001
     9500000: //RootNode
   materials:
     importMaterials: 1
