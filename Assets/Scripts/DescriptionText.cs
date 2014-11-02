@@ -19,7 +19,7 @@ public class DescriptionText : MonoBehaviour {
 	}
 
     public void changeItemSelected(int itemNum) {
-        ItemSelection itemSelectionScript = GameObject.Find("Item"+itemNum.ToString()).GetComponent<ItemSelection>();
+        ItemSelection itemSelectionScript = GameObject.Find("CollectiveItemImage" + itemNum.ToString()).GetComponent<ItemSelection>();
         if (itemSelectionScript.available)
         {
             gameObject.GetComponent<Text>().text = description[itemNum];

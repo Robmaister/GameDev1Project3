@@ -2,6 +2,8 @@
 using System.Collections;
 
 public class InteractionTarget : MonoBehaviour {
+    // 0 for treasurebox, 1 for collective item, 2 for text descriptive item
+    public int itemType;
 
 	bool isLooking = false;
 
@@ -46,5 +48,19 @@ public class InteractionTarget : MonoBehaviour {
 			return;
 		
 		mr.material.SetColor("_Color", new Color (0f, 0f, 1f));
+
+        if (itemType == 0) {
+            TreasureBox treasureBoxScript = gameObject.GetComponent<TreasureBox>();
+            treasureBoxScript.ToggleTreasureBoxUI();
+        }
+        else if (itemType == 1)
+        {
+            CollectibleItem collectibleItemScript = gameObject.GetComponent<CollectibleItem>();
+            collectibleItemScript.collect();
+        }
+        else if (itemType == 2)
+        {
+
+        }
 	}
 }
