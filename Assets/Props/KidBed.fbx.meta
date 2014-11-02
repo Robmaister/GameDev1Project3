@@ -1,0 +1,101 @@
+fileFormatVersion: 2
+guid: bec8e1afeaa7f4d4ca6c6d739a8d6005
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Bed1_dimensions.005
+    100002: Bed2_dimensions.001
+    100004: Bed2_dimensions.003
+    100006: Bed2_dimensions.005
+    100008: Bed2_dimensions.006
+    100010: Bed2_dimensions.007
+    100012: //RootNode
+    100014: mattress
+    100016: pillow1.003
+    400000: Bed1_dimensions.005
+    400002: Bed2_dimensions.001
+    400004: Bed2_dimensions.003
+    400006: Bed2_dimensions.005
+    400008: Bed2_dimensions.006
+    400010: Bed2_dimensions.007
+    400012: //RootNode
+    400014: mattress
+    400016: pillow1.003
+    2300000: Bed1_dimensions.005
+    2300002: Bed2_dimensions.001
+    2300004: Bed2_dimensions.003
+    2300006: Bed2_dimensions.005
+    2300008: Bed2_dimensions.006
+    2300010: Bed2_dimensions.007
+    2300012: mattress
+    2300014: pillow1.003
+    3300000: Bed1_dimensions.005
+    3300002: Bed2_dimensions.001
+    3300004: Bed2_dimensions.003
+    3300006: Bed2_dimensions.005
+    3300008: Bed2_dimensions.006
+    3300010: Bed2_dimensions.007
+    3300012: mattress
+    3300014: pillow1.003
+    4300000: Bed2_dimensions.007
+    4300002: pillow1.003
+    4300004: Bed2_dimensions.006
+    4300006: Bed2_dimensions.005
+    4300010: Bed1_dimensions.005
+    4300012: Bed2_dimensions.001
+    4300014: mattress
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
