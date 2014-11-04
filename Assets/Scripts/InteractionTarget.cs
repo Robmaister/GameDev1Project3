@@ -26,7 +26,8 @@ public class InteractionTarget : MonoBehaviour {
 		if (mr == null)
 			return;
 
-		mr.material.SetColor("_Color", new Color (0f, 1f, 0f));
+		mr.material.SetFloat("_IsHover", 1);
+		mr.material.SetFloat ("_HoverStartTime", Time.time);
 	}
 
 	void InteractUnlook()
@@ -38,7 +39,7 @@ public class InteractionTarget : MonoBehaviour {
 		if (mr == null)
 			return;
 		
-		mr.material.SetColor("_Color", new Color (1f, 0f, 0f));
+		mr.material.SetFloat("_IsHover", 0);
 	}
 
 	void Interact()
