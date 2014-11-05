@@ -23,7 +23,13 @@ public class GameFlow : MonoBehaviour {
         collectibleStatus[itemNum] = true;
     }
 
-    public void triggerNextDay(){
+    public void triggerNight(){
+
+        GameObject.Find("First Person Controller").GetComponent<CharacterMotor>().canControl = false;        
+    }
+
+    void triggerAnotherDay(){
         day++;
+        GameObject.Find("First Person Controller").GetComponent<CharacterMotor>().canControl = true;
     }
 }
