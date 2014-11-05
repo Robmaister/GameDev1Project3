@@ -507,7 +507,7 @@ Prefab:
       objectReference: {fileID: 2100000, guid: 0c266ca5728f503439f19915bffe8200, type: 2}
     - target: {fileID: 100000, guid: 2b85486c858bc76419abb36622b557e4, type: 3}
       propertyPath: m_TagString
-      value: CollectibleDay1
+      value: CollectibleDay3
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9500000, guid: 2b85486c858bc76419abb36622b557e4, type: 3}
@@ -11474,7 +11474,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!225 &966537526
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -11672,7 +11672,7 @@ GameObject:
   - 114: {fileID: 997429947}
   m_Layer: 5
   m_Name: WakeUpButton
-  m_TagString: Untagged
+  m_TagString: WakeUpUIPanel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11733,7 +11733,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 997429948}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 708892569}
+        m_MethodName: SendMessage
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: TransitionDay
+          m_BoolArgument: 0
+        m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &997429948
@@ -21684,7 +21696,7 @@ GameObject:
   - 114: {fileID: 1838373319}
   m_Layer: 10
   m_Name: destroyedVase
-  m_TagString: CollectibleDay1
+  m_TagString: CollectibleDay3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -8,10 +8,14 @@ public class InteractionTarget : MonoBehaviour {
 
 	bool isLooking = false;
 	GameFlow flow;
+	GameObject nightPanel;
+	GameObject canvas;
 
 	// Use this for initialization
 	void Start () {
 		flow = GameObject.Find ("GameFlow").GetComponent<GameFlow>();
+		canvas = GameObject.Find ("Canvas");
+		nightPanel = GameObject.FindWithTag("WakeUpUIPanel");
 	}
 	
 	// Update is called once per frame
@@ -21,7 +25,7 @@ public class InteractionTarget : MonoBehaviour {
 
 	void InteractLook()
 	{
-		if (itemType == InteractType.Bed && flow.bedTransition)
+		if (itemType == InteractType.Bed && !flow.bedTransition)
 			return;
 
 		//print ("looking");
@@ -58,7 +62,11 @@ public class InteractionTarget : MonoBehaviour {
 						collectibleItemScript.collect ();
 						break;
                 case InteractType.Bed:
-						
+						if (flow.bedTransition)
+			{
+				canvas.SetActive(true);
+							nightPanel.SetActive(true);
+			}
                         break;
                 default:
 						break;
