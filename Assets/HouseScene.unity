@@ -505,6 +505,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 0c266ca5728f503439f19915bffe8200, type: 2}
+    - target: {fileID: 100000, guid: 2b85486c858bc76419abb36622b557e4, type: 3}
+      propertyPath: m_TagString
+      value: CollectibleDay3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2b85486c858bc76419abb36622b557e4, type: 3}
   m_RootGameObject: {fileID: 1838373314}
@@ -1756,7 +1760,7 @@ GameObject:
   - 114: {fileID: 181186164}
   m_Layer: 8
   m_Name: jackdaniels
-  m_TagString: Untagged
+  m_TagString: CollectibleDay1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3198,7 +3202,7 @@ GameObject:
   - 114: {fileID: 337656656}
   m_Layer: 9
   m_Name: Glass
-  m_TagString: Untagged
+  m_TagString: CollectibleDay2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9993,7 +9997,7 @@ GameObject:
   - 114: {fileID: 858211519}
   m_Layer: 9
   m_Name: remote
-  m_TagString: Untagged
+  m_TagString: CollectibleDay2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10604,7 +10608,7 @@ GameObject:
   - 114: {fileID: 894695617}
   m_Layer: 10
   m_Name: divorcePaper
-  m_TagString: Untagged
+  m_TagString: CollectibleDay3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12293,6 +12297,10 @@ Prefab:
     - target: {fileID: 100000, guid: 751f48e1f549da74f849caf2c6870f75, type: 3}
       propertyPath: m_Layer
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 751f48e1f549da74f849caf2c6870f75, type: 3}
+      propertyPath: m_TagString
+      value: CollectibleDay1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9500000, guid: 751f48e1f549da74f849caf2c6870f75, type: 3}
@@ -18106,6 +18114,10 @@ Prefab:
       propertyPath: m_Layer
       value: 9
       objectReference: {fileID: 0}
+    - target: {fileID: 100040, guid: dac205433b2ec50428a68398aa777e58, type: 3}
+      propertyPath: m_TagString
+      value: CollectibleDay2
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9500000, guid: dac205433b2ec50428a68398aa777e58, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: dac205433b2ec50428a68398aa777e58, type: 3}
@@ -18633,6 +18645,10 @@ Prefab:
     - target: {fileID: 100008, guid: ebf81b66a80fbac4c852560d04786ba1, type: 3}
       propertyPath: m_Layer
       value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: ebf81b66a80fbac4c852560d04786ba1, type: 3}
+      propertyPath: m_TagString
+      value: CollectibleDay4
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9500000, guid: ebf81b66a80fbac4c852560d04786ba1, type: 3}
@@ -19213,7 +19229,7 @@ GameObject:
   - 114: {fileID: 1629947091}
   m_Layer: 8
   m_Name: pillow
-  m_TagString: Untagged
+  m_TagString: CollectibleDay1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21545,7 +21561,7 @@ GameObject:
   - 114: {fileID: 1809625485}
   m_Layer: 11
   m_Name: ring
-  m_TagString: Untagged
+  m_TagString: CollectibleDay4
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21926,7 +21942,7 @@ GameObject:
   - 114: {fileID: 1838373318}
   m_Layer: 10
   m_Name: destroyedVase
-  m_TagString: Untagged
+  m_TagString: CollectibleDay3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
