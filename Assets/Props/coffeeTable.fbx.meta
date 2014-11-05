@@ -79,6 +79,7 @@ ModelImporter:
     2300038: ScrewHead.003
     2300040: SidePanels.000
     2300042: TopEdge.000
+    2300044: //RootNode
     3300000: BackPanel.000
     3300002: BottomPanel.000
     3300004: CenterSupport.000
@@ -101,6 +102,7 @@ ModelImporter:
     3300038: ScrewHead.003
     3300040: SidePanels.000
     3300042: TopEdge.000
+    3300044: //RootNode
     4300000: hmtn_CoffeeTable.000
     4300002: DrawerFront.001
     4300004: DrawerBoxBack.001
