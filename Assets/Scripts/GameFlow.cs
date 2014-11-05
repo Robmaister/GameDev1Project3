@@ -2,28 +2,52 @@
 using System.Collections;
 
 public class GameFlow : MonoBehaviour {
-    public int day;
-    public bool[] collectibleStatus = new bool[8];
-	// Use this for initialization
+    public int day = 0;
+	public bool bedTransition = false;
+
+	GameObject[][] days;
 	
     void Start () {
-        day = 1;
-        for (int i = 1; i < 8; i++) {
-            collectibleStatus[i] = false;
-        }
+		days = new GameObject[4][];
+		days[0] = GameObject.FindGameObjectsWithTag ("CollectibleDay1");
+		days[1] = GameObject.FindGameObjectsWithTag ("CollectibleDay2");
+		days[2] = GameObject.FindGameObjectsWithTag ("CollectibleDay3");
+		days[3] = GameObject.FindGameObjectsWithTag ("CollectibleDay4");
+
+		foreach (GameObject obj in days[1])
+			obj.SetActive (false);
+		foreach (GameObject obj in days[2])
+			obj.SetActive (false);
+		foreach (GameObject obj in days[3])
+			obj.SetActive (false);
 	}
 
     // Update is called once per frame
     void Update()
     {
-	
+		if (bedTransition)
+			return;
+
+		bool allCollected = true;
+		foreach (GameObject obj in days[day]) {
+			if (obj != null)
+			{
+				allCollected = false;
+				break;
+			}
+		}
+
+		bedTransition = allCollected;
+
 	}
 
-    public void setCollect(int itemNum) {
-        collectibleStatus[itemNum] = true;
-    }
+	void TransitionDay() {
+		if (bedTransition) {
+			day++;
+			bedTransition = false;
 
-    public void triggerNextDay(){
-        day++;
-    }
+			foreach (GameObject obj in days[day])
+				obj.SetActive(true);
+		}
+	}
 }
