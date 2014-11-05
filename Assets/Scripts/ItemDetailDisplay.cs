@@ -6,6 +6,11 @@ public class ItemDetailDisplay : MonoBehaviour {
     public Sprite blankSprite;
     public Sprite sprite1;
     public Sprite sprite2;
+    public Sprite sprite3;
+    public Sprite sprite4;
+    public Sprite sprite5;
+    public Sprite sprite6;
+    public Sprite sprite7;
     public bool[] itemAvailablbility = new bool[13];
 
 	// Use this for initialization
@@ -32,6 +37,21 @@ public class ItemDetailDisplay : MonoBehaviour {
                     break;
                 case 2:
                     gameObject.GetComponent<Image>().sprite = sprite2;
+                    break;
+                case 3:
+                    gameObject.GetComponent<Image>().sprite = sprite3;
+                    break;
+                case 4:
+                    gameObject.GetComponent<Image>().sprite = sprite4;
+                    break;
+                case 5:
+                    gameObject.GetComponent<Image>().sprite = sprite5;
+                    break;
+                case 6:
+                    gameObject.GetComponent<Image>().sprite = sprite6;
+                    break;
+                case 7:
+                    gameObject.GetComponent<Image>().sprite = sprite7;
                     break;
                 default:
                     gameObject.GetComponent<Image>().sprite = blankSprite;
