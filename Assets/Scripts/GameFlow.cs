@@ -25,12 +25,14 @@ public class GameFlow : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-		if (bedTransition)
-			return;
+		if (bedTransition) {
+			//return;
+			TransitionDay();
+		}
 
 		bool allCollected = true;
 		foreach (GameObject obj in days[day]) {
-			if (obj != null)
+			if (!(obj == null))
 			{
 				allCollected = false;
 				break;
