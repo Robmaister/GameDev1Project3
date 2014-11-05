@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public enum InteractType { Collectible, TreasureBox, DescriptiveText }
+public enum InteractType { Collectible, TreasureBox, Bed }
 
 public class InteractionTarget : MonoBehaviour {
     public InteractType itemType;
@@ -54,7 +54,9 @@ public class InteractionTarget : MonoBehaviour {
 						CollectibleItem collectibleItemScript = gameObject.GetComponent<CollectibleItem> ();
 						collectibleItemScript.collect ();
 						break;
-				default:
+                case InteractType.Bed:
+                        break;
+                default:
 						break;
 				}
 	}
