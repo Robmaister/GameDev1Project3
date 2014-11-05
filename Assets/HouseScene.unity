@@ -13751,6 +13751,14 @@ Prefab:
       propertyPath: m_Layer
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
+      propertyPath: minimumY
+      value: -80
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
+      propertyPath: maximumY
+      value: -10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
   m_RootGameObject: {fileID: 2036473182}
@@ -14447,8 +14455,8 @@ MonoBehaviour:
   sensitivityY: 10
   minimumX: 0
   maximumX: 360
-  minimumY: -60
-  maximumY: 60
+  minimumY: -80
+  maximumY: -10
 --- !u!124 &1194963650
 Behaviour:
   m_ObjectHideFlags: 0
