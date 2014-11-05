@@ -243,7 +243,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2b85486c858bc76419abb36622b557e4, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2b85486c858bc76419abb36622b557e4, type: 3}
       propertyPath: m_LocalScale.x
@@ -507,9 +507,10 @@ Prefab:
       objectReference: {fileID: 2100000, guid: 0c266ca5728f503439f19915bffe8200, type: 2}
     - target: {fileID: 100000, guid: 2b85486c858bc76419abb36622b557e4, type: 3}
       propertyPath: m_TagString
-      value: CollectibleDay3
+      value: CollectibleDay1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: 2b85486c858bc76419abb36622b557e4, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: 2b85486c858bc76419abb36622b557e4, type: 3}
   m_RootGameObject: {fileID: 1838373314}
   m_IsPrefabParent: 0
@@ -9971,9 +9972,9 @@ GameObject:
   - 4: {fileID: 858211517}
   - 33: {fileID: 858211523}
   - 23: {fileID: 858211522}
-  - 64: {fileID: 858211518}
   - 114: {fileID: 858211520}
   - 114: {fileID: 858211519}
+  - 65: {fileID: 858211518}
   m_Layer: 9
   m_Name: remote
   m_TagString: CollectibleDay2
@@ -9993,8 +9994,8 @@ Transform:
   m_Children: []
   m_Father: {fileID: 120265978}
   m_RootOrder: 4
---- !u!64 &858211518
-MeshCollider:
+--- !u!65 &858211518
+BoxCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -10003,9 +10004,8 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_SmoothSphereCollisions: 0
-  m_Convex: 0
-  m_Mesh: {fileID: 0}
+  m_Size: {x: .0570327044, y: .0900229439, z: .0466672853}
+  m_Center: {x: -.0125059979, y: .0194654055, z: .00029118266}
 --- !u!114 &858211519
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10043,7 +10043,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: ee294e5884042d64e8e5bad0dfa8d447, type: 2}
+  - {fileID: 2100000, guid: bdc95c77f49d0754e8c5876a90dc136f, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -18028,6 +18028,10 @@ Prefab:
       propertyPath: m_TagString
       value: CollectibleDay2
       objectReference: {fileID: 0}
+    - target: {fileID: 2300040, guid: dac205433b2ec50428a68398aa777e58, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: bdc95c77f49d0754e8c5876a90dc136f, type: 2}
     m_RemovedComponents:
     - {fileID: 9500000, guid: dac205433b2ec50428a68398aa777e58, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: dac205433b2ec50428a68398aa777e58, type: 3}
@@ -21846,13 +21850,12 @@ GameObject:
   - 4: {fileID: 1838373315}
   - 33: {fileID: 1838373321}
   - 23: {fileID: 1838373320}
-  - 95: {fileID: 1838373317}
-  - 64: {fileID: 1838373316}
-  - 114: {fileID: 1838373319}
+  - 65: {fileID: 1838373316}
   - 114: {fileID: 1838373318}
+  - 114: {fileID: 1838373319}
   m_Layer: 10
   m_Name: destroyedVase
-  m_TagString: CollectibleDay3
+  m_TagString: CollectibleDay1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21869,8 +21872,8 @@ Transform:
   m_Children: []
   m_Father: {fileID: 120265978}
   m_RootOrder: 5
---- !u!64 &1838373316
-MeshCollider:
+--- !u!65 &1838373316
+BoxCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -21879,25 +21882,8 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_SmoothSphereCollisions: 0
-  m_Convex: 0
-  m_Mesh: {fileID: 0}
---- !u!95 &1838373317
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: 2b85486c858bc76419abb36622b557e4,
-    type: 3}
-  m_PrefabInternal: {fileID: 6447500}
-  m_GameObject: {fileID: 1838373314}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 2b85486c858bc76419abb36622b557e4, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
+  m_Size: {x: 8.19999981, y: 3.0999999, z: 8.11999989}
+  m_Center: {x: -.150000006, y: 1, z: -.800000012}
 --- !u!114 &1838373318
 MonoBehaviour:
   m_ObjectHideFlags: 0

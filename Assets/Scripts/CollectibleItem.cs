@@ -15,7 +15,7 @@ public class CollectibleItem : MonoBehaviour {
 	}
 
     public void collect() {
+		Destroy(gameObject);
         GameObject.Find("CollectiveItemImage"+itemNumber.ToString()).GetComponent<ItemSelection>().collect();
-        Destroy(gameObject);
     }
 }
