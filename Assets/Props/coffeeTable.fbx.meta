@@ -1,0 +1,204 @@
+fileFormatVersion: 2
+guid: 35049efb2b722434fbc51e34eb9a4812
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Area
+    100002: BackPanel.000
+    100004: BottomPanel.000
+    100006: Camera
+    100008: CenterSupport.000
+    100010: //RootNode
+    100012: DrawerBoxBack.000
+    100014: DrawerBoxBack.001
+    100016: DrawerBoxBottom.000
+    100018: DrawerBoxBottom.001
+    100020: DrawerBoxSide.000
+    100022: DrawerBoxSide.001
+    100024: DrawerFront.000
+    100026: DrawerFront.001
+    100028: DrawerHandle.000
+    100030: DrawerHandle.001
+    100032: Fron tFrame.000
+    100034: Hemi
+    100036: hmtn_CoffeeTable.000
+    100038: Legs.000
+    100040: ScrewHead.000
+    100042: ScrewHead.001
+    100044: ScrewHead.002
+    100046: ScrewHead.003
+    100048: SidePanels.000
+    100050: Spot
+    100052: TopEdge.000
+    400000: Area
+    400002: BackPanel.000
+    400004: BottomPanel.000
+    400006: Camera
+    400008: CenterSupport.000
+    400010: //RootNode
+    400012: DrawerBoxBack.000
+    400014: DrawerBoxBack.001
+    400016: DrawerBoxBottom.000
+    400018: DrawerBoxBottom.001
+    400020: DrawerBoxSide.000
+    400022: DrawerBoxSide.001
+    400024: DrawerFront.000
+    400026: DrawerFront.001
+    400028: DrawerHandle.000
+    400030: DrawerHandle.001
+    400032: Fron tFrame.000
+    400034: Hemi
+    400036: hmtn_CoffeeTable.000
+    400038: Legs.000
+    400040: ScrewHead.000
+    400042: ScrewHead.001
+    400044: ScrewHead.002
+    400046: ScrewHead.003
+    400048: SidePanels.000
+    400050: Spot
+    400052: TopEdge.000
+    2300000: BackPanel.000
+    2300002: BottomPanel.000
+    2300004: CenterSupport.000
+    2300006: DrawerBoxBack.000
+    2300008: DrawerBoxBack.001
+    2300010: DrawerBoxBottom.000
+    2300012: DrawerBoxBottom.001
+    2300014: DrawerBoxSide.000
+    2300016: DrawerBoxSide.001
+    2300018: DrawerFront.000
+    2300020: DrawerFront.001
+    2300022: DrawerHandle.000
+    2300024: DrawerHandle.001
+    2300026: Fron tFrame.000
+    2300028: hmtn_CoffeeTable.000
+    2300030: Legs.000
+    2300032: ScrewHead.000
+    2300034: ScrewHead.001
+    2300036: ScrewHead.002
+    2300038: ScrewHead.003
+    2300040: SidePanels.000
+    2300042: TopEdge.000
+    2300044: //RootNode
+    3300000: BackPanel.000
+    3300002: BottomPanel.000
+    3300004: CenterSupport.000
+    3300006: DrawerBoxBack.000
+    3300008: DrawerBoxBack.001
+    3300010: DrawerBoxBottom.000
+    3300012: DrawerBoxBottom.001
+    3300014: DrawerBoxSide.000
+    3300016: DrawerBoxSide.001
+    3300018: DrawerFront.000
+    3300020: DrawerFront.001
+    3300022: DrawerHandle.000
+    3300024: DrawerHandle.001
+    3300026: Fron tFrame.000
+    3300028: hmtn_CoffeeTable.000
+    3300030: Legs.000
+    3300032: ScrewHead.000
+    3300034: ScrewHead.001
+    3300036: ScrewHead.002
+    3300038: ScrewHead.003
+    3300040: SidePanels.000
+    3300042: TopEdge.000
+    3300044: //RootNode
+    4300000: hmtn_CoffeeTable.000
+    4300002: DrawerFront.001
+    4300004: DrawerBoxBack.001
+    4300006: DrawerBoxBottom.001
+    4300008: DrawerBoxSide.001
+    4300010: ScrewHead.003
+    4300012: DrawerHandle.001
+    4300014: ScrewHead.002
+    4300016: CenterSupport.000
+    4300018: Fron tFrame.000
+    4300020: BackPanel.000
+    4300022: Legs.000
+    4300024: SidePanels.000
+    4300026: TopEdge.000
+    4300028: DrawerFront.000
+    4300030: ScrewHead.001
+    4300032: DrawerHandle.000
+    4300034: DrawerBoxSide.000
+    4300036: DrawerBoxBottom.000
+    4300038: DrawerBoxBack.000
+    4300040: ScrewHead.000
+    4300042: BottomPanel.000
+    6400000: BackPanel.000
+    6400002: BottomPanel.000
+    6400004: CenterSupport.000
+    6400006: DrawerBoxBack.000
+    6400008: DrawerBoxBack.001
+    6400010: DrawerBoxBottom.000
+    6400012: DrawerBoxBottom.001
+    6400014: DrawerBoxSide.000
+    6400016: DrawerBoxSide.001
+    6400018: DrawerFront.000
+    6400020: DrawerFront.001
+    6400022: DrawerHandle.000
+    6400024: DrawerHandle.001
+    6400026: Fron tFrame.000
+    6400028: hmtn_CoffeeTable.000
+    6400030: Legs.000
+    6400032: ScrewHead.000
+    6400034: ScrewHead.001
+    6400036: ScrewHead.002
+    6400038: ScrewHead.003
+    6400040: SidePanels.000
+    6400042: TopEdge.000
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
