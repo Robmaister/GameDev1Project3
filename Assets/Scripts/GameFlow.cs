@@ -8,12 +8,13 @@ public class GameFlow : MonoBehaviour {
 	GameObject[][] days;
 	
 	GameObject nightPanel;
-	GameObject canvas;
+	//GameObject canvas;
 	
 	// Use this for initialization
 	void Start () {
 		nightPanel = GameObject.FindWithTag("WakeUpUIPanel");
-		canvas = GameObject.Find ("Canvas");
+		nightPanel.SetActive (false);
+		//canvas = GameObject.Find ("Canvas");
 		days = new GameObject[4][];
 		days[0] = GameObject.FindGameObjectsWithTag ("CollectibleDay1");
 		days[1] = GameObject.FindGameObjectsWithTag ("CollectibleDay2");
@@ -26,6 +27,9 @@ public class GameFlow : MonoBehaviour {
 			obj.SetActive (false);
 		foreach (GameObject obj in days[3])
 			obj.SetActive (false);
+
+		//canvas.SetActive (false);
+
 	}
 
     // Update is called once per frame
@@ -36,8 +40,10 @@ public class GameFlow : MonoBehaviour {
 			//TransitionDay();
 		}
 
-		canvas.SetActive (false);
-		nightPanel.SetActive (false);
+		if (day == 4) {
+			nightPanel.SetActive(true);
+			return;
+				}
 
 		bool allCollected = true;
 		foreach (GameObject obj in days[day]) {
@@ -54,10 +60,13 @@ public class GameFlow : MonoBehaviour {
 
 	void TransitionDay() {
 		if (bedTransition) {
-			nightPanel.SetActive(false);
-			canvas.SetActive(false);
+			//nightPanel.SetActive(false);
+			//canvas.SetActive(false);
 			day++;
 			bedTransition = false;
+
+			if (day == 4)
+				return;
 
 			foreach (GameObject obj in days[day])
 				obj.SetActive(true);
