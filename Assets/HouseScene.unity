@@ -3029,6 +3029,7 @@ GameObject:
   - 33: {fileID: 294137841}
   - 23: {fileID: 294137840}
   - 95: {fileID: 294137839}
+  - 65: {fileID: 294137842}
   m_Layer: 0
   m_Name: counter
   m_TagString: Untagged
@@ -3095,6 +3096,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 947273994}
   m_GameObject: {fileID: 294137837}
   m_Mesh: {fileID: 4300000, guid: 836496154b3eb8b498847cbed74168ac, type: 3}
+--- !u!65 &294137842
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 294137837}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .00600000424, y: .00612965738, z: .00880015735}
+  m_Center: {x: -.00299999933, y: .00293518114, z: .00440007588}
 --- !u!1 &306686064
 GameObject:
   m_ObjectHideFlags: 0
@@ -3708,6 +3721,7 @@ GameObject:
   - 4: {fileID: 357683733}
   - 33: {fileID: 357683732}
   - 23: {fileID: 357683731}
+  - 65: {fileID: 357683734}
   m_Layer: 0
   m_Name: Kitchen bench 80 tap
   m_TagString: Untagged
@@ -3758,6 +3772,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 25294196}
   m_RootOrder: 1
+--- !u!65 &357683734
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 357683730}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .00800000504, y: .00612884201, z: .00880015735}
+  m_Center: {x: -.00400000997, y: .0028362819, z: .00440007728}
 --- !u!1 &358190661
 GameObject:
   m_ObjectHideFlags: 0
@@ -4183,6 +4209,7 @@ GameObject:
   - 33: {fileID: 394878007}
   - 23: {fileID: 394878006}
   - 95: {fileID: 394878005}
+  - 65: {fileID: 394878008}
   m_Layer: 0
   m_Name: stove
   m_TagString: Untagged
@@ -4249,6 +4276,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1505142486}
   m_GameObject: {fileID: 394878003}
   m_Mesh: {fileID: 4300000, guid: 505e46996cefcd44ea01b144db9f6a80, type: 3}
+--- !u!65 &394878008
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 394878003}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .020000007, y: .0240937546, z: .0277359672}
+  m_Center: {x: -4.65661287e-10, y: -.00204687426, z: -.000115874689}
 --- !u!1 &404735241
 GameObject:
   m_ObjectHideFlags: 0
@@ -9996,16 +10035,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 563b2431164000642907126cda5f1c44, type: 2}
-  - {fileID: 2100000, guid: 9aab2d39ce0ad2a45941dcdafe0ae206, type: 2}
-  - {fileID: 2100000, guid: 034ead362dd5735458a96d96acc2cc64, type: 2}
-  - {fileID: 2100000, guid: 4684468adeb6a604e9690e85e9d9cd21, type: 2}
-  - {fileID: 2100000, guid: 91f40130396b4024c8283f1b42cefa5d, type: 2}
-  - {fileID: 2100000, guid: 65b784251597e124eb9a71fadb0e9881, type: 2}
-  - {fileID: 2100000, guid: 15e7baae2bc3c2e4baef860e28be91ad, type: 2}
-  - {fileID: 2100000, guid: 170935cc329604a4fb3bb2bc5c2113f8, type: 2}
-  - {fileID: 2100000, guid: 9ade4816eb80f8149b2f62cdd2b1e1e8, type: 2}
-  - {fileID: 2100000, guid: be91a199d2ee2f442a5fb1f5a3c0fc30, type: 2}
+  - {fileID: 2100000, guid: ee294e5884042d64e8e5bad0dfa8d447, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -11476,6 +11506,7 @@ GameObject:
   - 4: {fileID: 942045888}
   - 33: {fileID: 942045890}
   - 23: {fileID: 942045889}
+  - 65: {fileID: 942045891}
   m_Layer: 0
   m_Name: Dishwasher
   m_TagString: Untagged
@@ -11526,6 +11557,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 426211092}
   m_GameObject: {fileID: 942045887}
   m_Mesh: {fileID: 4300000, guid: 51b4d066c3fd16445a4901b0b409707c, type: 3}
+--- !u!65 &942045891
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 942045887}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .00600000564, y: .00605000556, z: .00879293494}
+  m_Center: {x: -5.5823516e-06, y: -5.82019197e-07, z: -.00019353423}
 --- !u!1 &945767556
 GameObject:
   m_ObjectHideFlags: 0
@@ -11537,6 +11580,7 @@ GameObject:
   - 33: {fileID: 945767560}
   - 23: {fileID: 945767559}
   - 95: {fileID: 945767558}
+  - 65: {fileID: 945767561}
   m_Layer: 0
   m_Name: fridge
   m_TagString: Untagged
@@ -11603,6 +11647,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1420478513}
   m_GameObject: {fileID: 945767556}
   m_Mesh: {fileID: 4300000, guid: f49d4bd63e6ac7847a1f540d1ab11a14, type: 3}
+--- !u!65 &945767561
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 945767556}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .00602292689, y: .00592001015, z: .0178500116}
+  m_Center: {x: -.000311455748, y: 5.00006499e-05, z: .00892500393}
 --- !u!1001 &947273994
 Prefab:
   m_ObjectHideFlags: 0
@@ -18637,6 +18693,7 @@ GameObject:
   - 33: {fileID: 1594932838}
   - 23: {fileID: 1594932837}
   - 95: {fileID: 1594932836}
+  - 65: {fileID: 1594932839}
   m_Layer: 0
   m_Name: counter
   m_TagString: Untagged
@@ -18703,6 +18760,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1832968200}
   m_GameObject: {fileID: 1594932834}
   m_Mesh: {fileID: 4300000, guid: 836496154b3eb8b498847cbed74168ac, type: 3}
+--- !u!65 &1594932839
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1594932834}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .00600000657, y: .00612966064, z: .00880016107}
+  m_Center: {x: -.00300000422, y: .00293518067, z: .00440007774}
 --- !u!1 &1608721728
 GameObject:
   m_ObjectHideFlags: 0
