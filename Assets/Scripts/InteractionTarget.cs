@@ -7,11 +7,11 @@ public class InteractionTarget : MonoBehaviour {
     public InteractType itemType;
 
 	bool isLooking = false;
+	GameFlow flow;
 
 	// Use this for initialization
-	//TODO grab renderer and swap shader with one that glows.
 	void Start () {
-	
+		flow = GameObject.Find ("GameFlow").GetComponent<GameFlow>();
 	}
 	
 	// Update is called once per frame
@@ -21,6 +21,9 @@ public class InteractionTarget : MonoBehaviour {
 
 	void InteractLook()
 	{
+		if (itemType == InteractType.Bed && flow.bedTransition)
+			return;
+
 		//print ("looking");
 		isLooking = true;
 		MeshRenderer mr = this.gameObject.GetComponent<MeshRenderer> ();
@@ -55,6 +58,7 @@ public class InteractionTarget : MonoBehaviour {
 						collectibleItemScript.collect ();
 						break;
                 case InteractType.Bed:
+						
                         break;
                 default:
 						break;

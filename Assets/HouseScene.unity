@@ -2473,7 +2473,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 260163624}
-  - 114: {fileID: 260163625}
   m_Layer: 0
   m_Name: KidBed
   m_TagString: Untagged
@@ -2501,18 +2500,6 @@ Transform:
   - {fileID: 1675951777}
   m_Father: {fileID: 1224467224}
   m_RootOrder: 4
---- !u!114 &260163625
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 260163623}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb47d50b67f163e49aac5b9a4c4a55dc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemType: 2
 --- !u!1 &262315052
 GameObject:
   m_ObjectHideFlags: 0
@@ -5216,6 +5203,7 @@ GameObject:
   - 4: {fileID: 524991053}
   - 33: {fileID: 524991055}
   - 23: {fileID: 524991054}
+  - 65: {fileID: 524991056}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -5264,6 +5252,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1983659207}
   m_GameObject: {fileID: 524991052}
   m_Mesh: {fileID: 4300004, guid: edd7495bd55dc4c4181a822f6af89cda, type: 3}
+--- !u!65 &524991056
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 524991052}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .0200000219, y: .0200005732, z: .0200000089}
+  m_Center: {x: 1.86264693e-09, y: 1.93567319e-30, z: 3.35417821e-32}
 --- !u!1 &526023491
 GameObject:
   m_ObjectHideFlags: 0
@@ -21468,6 +21468,7 @@ GameObject:
   - 33: {fileID: 1825683352}
   - 23: {fileID: 1825683351}
   - 65: {fileID: 1825683350}
+  - 114: {fileID: 1825683353}
   m_Layer: 0
   m_Name: Bed1_dimensions.005
   m_TagString: Untagged
@@ -21528,6 +21529,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 2129015479}
   m_GameObject: {fileID: 1825683348}
   m_Mesh: {fileID: 4300010, guid: 3eca697a2c98fbd4ca8ff18d07bd4ce2, type: 3}
+--- !u!114 &1825683353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1825683348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb47d50b67f163e49aac5b9a4c4a55dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: 2
 --- !u!1001 &1832850999
 Prefab:
   m_ObjectHideFlags: 0
