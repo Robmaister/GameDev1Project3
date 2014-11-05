@@ -2777,6 +2777,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 260163624}
+  - 114: {fileID: 260163625}
   m_Layer: 0
   m_Name: KidBed
   m_TagString: Untagged
@@ -2804,6 +2805,18 @@ Transform:
   - {fileID: 1675951777}
   m_Father: {fileID: 1224467224}
   m_RootOrder: 4
+--- !u!114 &260163625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 260163623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb47d50b67f163e49aac5b9a4c4a55dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: 2
 --- !u!1 &267701556
 GameObject:
   m_ObjectHideFlags: 0
