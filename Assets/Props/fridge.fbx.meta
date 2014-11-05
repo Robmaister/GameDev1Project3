@@ -14,7 +14,9 @@ ModelImporter:
     400006: Lamp
     400008: Lamp.001
     2300000: Fridge
+    2300002: //RootNode
     3300000: Fridge
+    3300002: //RootNode
     4300000: Fridge
     6400000: Fridge
     9500000: //RootNode

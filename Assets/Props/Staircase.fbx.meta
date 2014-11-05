@@ -17,8 +17,10 @@ ModelImporter:
     400010: Sun
     2300000: Staircase
     2300002: Staircase Rail
+    2300004: //RootNode
     3300000: Staircase
     3300002: Staircase Rail
+    3300004: //RootNode
     4300000: Staircase
     4300002: Staircase Rail
     9500000: //RootNode
@@ -30,6 +32,7 @@ ModelImporter:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
     optimizeGameObjects: 0
+    motionNodeName: 
     animationCompression: 1
     animationRotationError: .5
     animationPositionError: .5
