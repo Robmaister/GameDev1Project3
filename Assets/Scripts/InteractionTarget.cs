@@ -67,6 +67,7 @@ public class InteractionTarget : MonoBehaviour {
 				//canvas.SetActive(true);
 							//nightPanel.SetActive(true);
 				flow.SendMessage("TransitionDay");
+				InteractUnlook();
 			}
                         break;
                 default:
