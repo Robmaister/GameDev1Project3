@@ -29,5 +29,6 @@ public class ItemSelection : MonoBehaviour {
         available = true;
         gameObject.GetComponent<Image>().sprite = itemSprite;
         itemDetailDisplayScript.itemAvailablbility[itemNumber] = true;
+        GameObject.Find("GameFlowControlObject").GetComponent<GameFlow>().setCollect(itemNumber);
     }
 }
