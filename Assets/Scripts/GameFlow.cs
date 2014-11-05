@@ -24,8 +24,7 @@ public class GameFlow : MonoBehaviour {
     }
 
     public void triggerNight(){
-
-        GameObject.Find("First Person Controller").GetComponent<CharacterMotor>().canControl = false;        
+        GameObject.Find("First Person Controller").GetComponent<CharacterMotor>().canControl = false;
     }
 
     void triggerAnotherDay(){
