@@ -1,9 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+public enum InteractType { Collectible, TreasureBox, DescriptiveText }
+
 public class InteractionTarget : MonoBehaviour {
-    // 0 for treasurebox, 1 for collective item, 2 for text descriptive item
-    public int itemType;
+    public InteractType itemType;
 
 	bool isLooking = false;
 
@@ -20,7 +21,7 @@ public class InteractionTarget : MonoBehaviour {
 
 	void InteractLook()
 	{
-		print ("looking");
+		//print ("looking");
 		isLooking = true;
 		MeshRenderer mr = this.gameObject.GetComponent<MeshRenderer> ();
 		if (mr == null)
@@ -32,7 +33,7 @@ public class InteractionTarget : MonoBehaviour {
 
 	void InteractUnlook()
 	{
-		print ("unlooking");
+		//print ("unlooking");
 		isLooking = false;
 
 		MeshRenderer mr = this.gameObject.GetComponent<MeshRenderer> ();
@@ -44,24 +45,17 @@ public class InteractionTarget : MonoBehaviour {
 
 	void Interact()
 	{
-		MeshRenderer mr = this.gameObject.GetComponent<MeshRenderer> ();
-		if (mr == null)
-			return;
-		
-		mr.material.SetColor("_Color", new Color (0f, 0f, 1f));
-
-        if (itemType == 0) {
-            TreasureBox treasureBoxScript = gameObject.GetComponent<TreasureBox>();
-            treasureBoxScript.ToggleTreasureBoxUI();
-        }
-        else if (itemType == 1)
-        {
-            CollectibleItem collectibleItemScript = gameObject.GetComponent<CollectibleItem>();
-            collectibleItemScript.collect();
-        }
-        else if (itemType == 2)
-        {
-
-        }
+		switch (itemType) {
+				case InteractType.TreasureBox:
+						TreasureBox treasureBoxScript = gameObject.GetComponent<TreasureBox> ();
+						treasureBoxScript.ToggleTreasureBoxUI ();
+						break;
+				case InteractType.Collectible:
+						CollectibleItem collectibleItemScript = gameObject.GetComponent<CollectibleItem> ();
+						collectibleItemScript.collect ();
+						break;
+				default:
+						break;
+				}
 	}
 }
