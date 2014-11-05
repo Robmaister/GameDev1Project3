@@ -67,6 +67,7 @@ ModelImporter:
     2300034: Font.017
     2300036: Font.018
     2300038: Sphere_iNFRAROUGE
+    2300040: //RootNode
     3300000: Cube.001_Cube.017_bou
     3300002: Cube.002_Cube.003_bou
     3300004: Cube.003_Cube.004_bou
@@ -87,6 +88,7 @@ ModelImporter:
     3300034: Font.017
     3300036: Font.018
     3300038: Sphere_iNFRAROUGE
+    3300040: //RootNode
     4300000: Font.018
     4300002: Font.017
     4300004: Font.016
