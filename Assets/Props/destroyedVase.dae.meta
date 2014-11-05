@@ -185,6 +185,7 @@ ModelImporter:
     2300114: Sphere_116
     2300116: Sphere_117
     2300118: Sphere_118
+    2300120: //RootNode
     3300000: Sphere_059
     3300002: Sphere_060
     3300004: Sphere_061
@@ -245,6 +246,7 @@ ModelImporter:
     3300114: Sphere_116
     3300116: Sphere_117
     3300118: Sphere_118
+    3300120: //RootNode
     4300000: Sphere_059
     4300002: Sphere_060
     4300004: Sphere_061
