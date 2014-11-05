@@ -3922,7 +3922,7 @@ SkinnedMeshRenderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: cfca182360336b649b301c7ae8e173b0, type: 2}
+  - {fileID: 2100000, guid: 788120aa08ab8b64b9db6d80492d2f6b, type: 2}
   - {fileID: 2100000, guid: 2ebd00880bb0a154eabcad866ad770b8, type: 2}
   - {fileID: 2100000, guid: f82917afc7fed724ab73ee9be7275b3b, type: 2}
   m_SubsetIndices: 
@@ -6764,7 +6764,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 3aaa48d0886be3647b992d6ec8934f62, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 3aaa48d0886be3647b992d6ec8934f62, type: 3}
       propertyPath: m_LocalScale.x
@@ -7472,7 +7472,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: bc5fc172fc037b9489815ddde0752c26, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: bc5fc172fc037b9489815ddde0752c26, type: 3}
       propertyPath: m_LocalScale.x
@@ -17349,8 +17349,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1946489867}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12.618, y: 47.901001, z: -7.25619984}
-  m_LocalScale: {x: 26, y: 25, z: .100000001}
+  m_LocalPosition: {x: -12.4969997, y: 47.901001, z: -7.25619984}
+  m_LocalScale: {x: 26.2999992, y: 25, z: .100000001}
   m_Children: []
   m_Father: {fileID: 1555693866}
   m_RootOrder: 20
@@ -17631,7 +17631,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400024, guid: 8355607724c01e1468e11abfeed818a5, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 400024, guid: 8355607724c01e1468e11abfeed818a5, type: 3}
       propertyPath: m_LocalScale.x
@@ -18000,6 +18000,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 200
       objectReference: {fileID: 0}
+    - target: {fileID: 13700000, guid: 6a40c487ef9b2fc4787f87516527cf88, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 788120aa08ab8b64b9db6d80492d2f6b, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6a40c487ef9b2fc4787f87516527cf88, type: 3}
   m_RootGameObject: {fileID: 1629670506}
@@ -19297,7 +19301,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400012, guid: 3eca697a2c98fbd4ca8ff18d07bd4ce2, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400012, guid: 3eca697a2c98fbd4ca8ff18d07bd4ce2, type: 3}
       propertyPath: m_LocalScale.x
