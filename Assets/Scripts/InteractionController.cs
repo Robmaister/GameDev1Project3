@@ -27,10 +27,11 @@ public class InteractionController : MonoBehaviour {
 	void InteractRaycast()
 	{
 		Vector3 fwd = transform.TransformDirection (Vector3.forward);
-		
+		Debug.DrawLine (transform.position, transform.position + fwd * RaycastDistance, Color.green, 2, false);
+
 		//raycast
 		RaycastHit hitInfo;
-		if (Physics.Raycast (transform.position, fwd, out hitInfo, RaycastDistance)) {
+		if (Physics.Raycast(transform.position, fwd, out hitInfo, RaycastDistance)) {
 			//get GameObject ray collides with
 			GameObject obj = hitInfo.collider.gameObject;
 			InteractionTarget objTarget = obj.GetComponent<InteractionTarget>();
